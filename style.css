@@ -75,3 +75,60 @@ body {
 .equalto:hover{
     background: #fb7c14 ;
 }
+@media screen and (max-width: 500px) {
+  body {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #2d3d25, #3a443a);
+  }
+
+  .calculator {
+    border: 1px solid #f8f8f8;
+    padding: 0.1rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1.2rem;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+  }
+  .input-box {
+    margin: 0px 30px 0px 0px;
+    padding: 30px 5px 30px 0px;
+    min-width: 300px;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+  }
+  .btn {
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.4rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: -8px -8px 10px rgba(113, 115, 119, 0.5);
+    transition: 0.5s all ease;
+  }
+  .btn:hover {
+    background-color: #000;
+  }
+  .operation {
+    color: #6dee0a;
+    transition: 0.3s all ease;
+  }
+  .operation:hover {
+    background: #26ff008d;
+  }
+  .equalto {
+    background: #fb7c14;
+  }
+  .equalto:hover {
+    background: #fb7c14;
+  }
+}
+
